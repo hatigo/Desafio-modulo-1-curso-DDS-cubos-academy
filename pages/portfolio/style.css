@@ -1,0 +1,39 @@
+ 
+ .portifolio{
+     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .portifolio img {
+    max-width: 540px;
+}
+
+ .card-portifolio {
+     display: flex;
+     justify-content: space-between;
+     margin:0 auto;
+     margin-bottom: 80px;
+     max-width: 1110px;
+
+ }
+
+ 
+
+ .card-portifolio .sobre{
+     max-width: 350px;
+ }
+
+ .card-portifolio button {
+     max-width: 175px;
+     padding: 15px 0px;
+ }
+ 
+.margin-right {
+    margin-right: 0;
+}
+
+ .margin-left {
+    margin-left: 0;
+ }
+

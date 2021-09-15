@@ -1,0 +1,88 @@
+.card-1 {
+    background-image: url('/assets/home/image-homepage-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 243px 665px 0px 0px;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 54px;
+    
+}
+
+.apresentacao {
+    padding: 56px 28px 0px 0px;
+    background: #FAFAFA;
+    max-width: 445px;
+    
+   
+
+}
+
+.apresentacao h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    color: #33323D;
+    margin-bottom: 53px;
+}
+
+.apresentacao button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background:#203A4C;
+    padding: 0px 40px 0px 0px ;
+    
+    
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.apresentacao button:hover{
+    cursor: pointer;
+}
+
+.apresentacao button img {
+    background: #1a3041;
+    
+    
+    padding: 18px 16px;
+    margin-right: 40px;
+    size: 48px;
+}
+
+.card-2 {
+    display: flex;
+    margin-bottom: 245px;
+    
+}
+
+.card-2 img {
+    max-width: 540px;
+    margin-left: 115px;
+}
+
+
+
+.card-2_sobremim h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+
+
+.card-2_sobremim button {
+    margin: 0 auto;
+}

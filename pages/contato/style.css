@@ -1,0 +1,79 @@
+.icones {
+    display: flex;
+}
+
+.icones img {
+    margin-right: 15px;
+}
+
+.entre-em-contato {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+    
+}
+
+.entre-em-contato p {
+    max-width: 635px;
+    margin-bottom: 54px;
+    
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.informacoes label {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;   
+    line-height: 30px;
+            
+    margin-bottom: 8px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.informacoes input {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 635px;
+    padding: 20px 318px 20px 10px;
+    margin-bottom: 24px;
+    background-color: #413f4d15;
+    color: black;
+}
+
+#txt-mensagem {
+    padding: 50px 318px 50px 0px;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    text-align: center;
+    padding:17px 24px;
+    max-width: 200px;
+    margin-bottom: 109px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;   
+    line-height: 14px;
+    color: white;
+    background: #203A4C;
+
+    
+
+}
+ button:hover {
+     cursor: pointer;
+ }

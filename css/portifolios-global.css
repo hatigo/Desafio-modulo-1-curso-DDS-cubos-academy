@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    max-width: 1110px;
+    margin:0 auto;
+    margin-bottom: 115px;
+}
+
+.cards {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.sobre-projetos {
+    max-width: 350px;
+}
+
+.sobre-projetos span {
+    color:#5FB4A2;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sobre-projetos a {
+    margin-top: 32px;
+}
+
+.projeto {
+    max-width: 635px;
+}
+
+.projeto img {
+    max-width: 635px;
+    margin-bottom: 32px;
+}
+
+.projeto h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    
+}
+
+.projeto p {
+    margin-bottom: 40px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #413f4d15;
+    border-bottom: solid 1px #413f4d15;
+    padding:32px 140px;
+    margin-bottom: 115px;
+}
+
+.setas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setas img{
+    margin:0;
+}
+
+.setas h1{
+    line-height: 36px;
+    margin:32px;
+}
+
+.setas span {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.5;
+
+}
+
+.setas a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}

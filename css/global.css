@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F2F2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 164px;
+}
+
+.cabeçalho_ul , .rodape_ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.cabeçalho_ul a , .rodape_ul a{
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 42px;
+
+}
+
+.cabeçalho_ul a:hover , .rodape_ul a:hover{
+    color:#5FB4A2;
+}
+
+.cabeçalho_ul a {
+    color: #33323D;
+}
+
+.cabeçalho_ul a.linkAtivo {
+    color:#5FB4A2;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+    margin-bottom: 28px;
+}
+
+.rodape_nav {
+    background: #33323D;
+    display: flex;
+    padding: 24px 165px;
+    
+}
+
+.rodape_nav_container {
+    display: flex;
+    align-items: center;
+    margin-right: 588px;
+}
+
+.rodape_ul a {
+    color: white;
+}
+
+.rodape_nav_icones {
+    display: flex;
+}
+
+.rodape_nav_icones img {
+    margin-right: 15px;
+}
+
+.rodape_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 0 165px;
+}
+
+ .button {
+        text-decoration: none;
+        padding: 15px 0px;
+        font-family: 'Public Sans', sans-serif;
+        font-weight: normal;
+        font-size: 12px;   
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #33323D;
+        border: solid 1px #33323D;
+        max-height: 48px;
+        max-width: 200px;
+        text-align: center;
+    
+    }
+    
+    .contato-button {
+        padding: 15px 50px;
+    }
+
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.sobre {
+    padding: 34px 10px 63px 0px;
+    background: #F2F2F2;
+    color:#33323D;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 140px;
+    margin-right: 140px;  
+    border-top: solid 1px #413f4d15;
+    border-bottom: solid 1px #413f4d15;
+    
+}
